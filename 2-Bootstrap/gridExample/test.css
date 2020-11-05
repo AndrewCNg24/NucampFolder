@@ -1,0 +1,11 @@
+.container-fluid {
+    border: 2px solid blue;
+}
+
+.row {
+    border: 2px solid yellow;
+}
+
+.col {
+    border: 2px solid green;
+}

@@ -1,0 +1,13 @@
+.row {
+    padding: 10px;
+  }
+  
+  .row > div {
+    border: 1px solid blue;
+    min-height: 100px;
+  }
+  
+  .container {
+    background: lightgray;
+  }
+   

@@ -1,0 +1,38 @@
+<!--
+INSTRUCTIONS:
+
+  1. Create 2 columns in a row. The viewport does not matter, the columns will be equal to each other. 
+      a. The first column: Span with the text "Row 1 Col 1"
+      b. The second column: Span with the text "Row 1 Col 2"
+  
+  2. Create 1 column in a row.
+      a. The column: Span with the text "Row 2 Col 1"
+      b. When the viewport is extra small, stretch the column to 12 columns
+      c. When the viewport is small, stretch the column to 10 columns
+      d. When the viewport is medium, stretch the column to 8 columns
+      e. When the viewport is large, stretch the column to 6 columns
+      f. When the viewport is extra large, stretch the column to 4 columns
+
+  3. Create 5 columns in a row.
+      a. In each column, give it the text of: Monday, Tuesday, Wednesday, Thursday, Friday
+      b. When the viewport is extra small, the columns stack on top of each other
+      c. When the viewport is small, stretch Monday and Friday to 4 columns 
+      f. When the viewport is extra large, stretch out evenly in one row
+-->
+<link rel="stylesheet" href="style.css" />
+<div class="row">
+    <div class="col">Row 1 Col 1</div>
+    <div class="col">Row 1 Col 2</div>
+ </div>
+ 
+ <div class="row">
+    <div class="col col-sm-10 col-md-8 col-lg-6 col-xl-4">Row 1 Col 1</div>
+ </div>
+ 
+ <div class="row">
+   <div class="col-12 col-sm-4 col-xl">Monday</div>
+   <div class="col-12 col-xl">Tuesday</div>
+   <div class="col-12 col-xl">Wednesday</div>
+   <div class="col-12 col-xl">Thursday</div>
+   <div class="col-12 col-sm-4 col-xl">Friday</div>
+ </div>

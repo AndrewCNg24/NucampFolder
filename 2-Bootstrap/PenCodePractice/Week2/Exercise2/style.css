@@ -1,0 +1,53 @@
+.notStacked div {
+    width: 150px;
+    height: 150px;  
+    background-color: aliceblue; 
+    border: 1px solid black;  
+    
+    /* this makes the div elements not stack on top of each other */
+    display: table-cell; 
+  }
+  
+  .textAlignTop div {
+    vertical-align: top;
+  }
+  
+  .textAlignBottom div {
+    vertical-align: bottom;
+  }
+   
+  .textAlignRight div {
+    text-align: right;
+  }
+   
+  .textAlignLeft div {
+    text-align: left;
+  }
+  
+  .insidePBorder p { 
+    margin: 0 auto;
+    border: 1px solid red;   
+    width: 50%;
+  }
+  
+  .insideMBorder p { 
+    border: 1px solid red;   
+    width: 50%;
+    height: 50%;
+  }
+  
+  .insidePBorder2 p { 
+    margin: 0 auto;
+    border: 1px solid red;    
+    width: 90%;
+    height: 50%;
+  }
+  
+  .insideMBorder2 p { 
+    border: 1px solid red;   
+    height: 50%;
+  }
+  
+  .insideMBorder3 p { 
+    border: 1px solid red;   
+  }

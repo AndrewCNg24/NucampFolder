@@ -13,6 +13,7 @@
     "react-redux": "7.2.0",
     "react-redux-form": "1.16.14",
     "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "reactstrap": "8.5.1",
     "redux": "4.0.5",
     "typeface-lobster": "^1.1.13",
